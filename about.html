@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header class="header">
+      <a href="#" class="logo">FLAWLESS FASHION</a>
+      <nav class="nav-items">
+        <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="product.html">PRODUCTS</a>
+          <a href="signup.html">Sign Up</a>
+          <a href="rating.html">Ratings</a>
+      </nav>
+    </header>
+</head>
+<body>
+    <div class="about-section">
+        <h1>ABOUT FLAWLESS FASHION</h1>
+        <p>Flawless fashion is a clothing and accessories that are well chosen, well fitting, and well coordinated, it is a style that is effortless and elegant hence appropriate for occasion. </p>
+        <p>It is all about confidence and self expression,it is about wearing clothes that make you feel your best and represent your unique personality.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/0259/7103/2124/products/04_5e44a4e3-e8e5-4533-bc6b-6ee091852739_271x.progressive.jpg?v=1677146332.png" alt="EUNICE" style="width:100%">
+            <div class="container">
+              <h2>OKUMU EUNICE</h2>
+              <p class="title">CEO & Founder</p>
+              <p>I am the CEO and Founder of flawless company with over 10 years of experience in fashion industry.
+                I am passionate about creating high quality, on trend fashion that is accessible to everyone. I have 
+                proven track record of success in leading and managing Flawless fashion to become one of the leading 
+                fashion companies in the world. I am commited to create a positive and supportive work environment where 
+                employees can thrive.</p>
+              <p>OKUMUEUNICE180@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/0259/7103/2124/products/45_b16d32b0-68c7-4189-b4cd-b986f927aaf6_271x.progressive.jpg?v=1677146174.png" alt="ANTONY" style="width:100%">
+            <div class="container">
+              <h2>ALICE BRENDA</h2>
+              <p class="title">Art Director</p>
+              <P>Iam a visionary art director with over 10 years of experience in the advertising industry. 
+                I have a proven track record of success in leading and managing teams of creative professionals 
+                to create visually stunning and effective advertising campaigns.</p>
+              <p>ALICEBRE23@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/0259/7103/2124/products/29_f59e4f13-7baa-4324-a68c-1a00abb27c7b_270x.jpg" alt="EVERLINE" style="width:100%">
+            <div class="container">
+              <h2>EVERLINE ACHIENG</h2>
+              <p class="title">Designer</p>
+              <p>I am a creative and passionate designer with more experience in the clothing industry. 
+                I have a proven track record of success in leading and managing teams of designer to create 
+                high-quality, on trend designs.</p>
+              <p>ACHEVERLINE57@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f0f7f0;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #c3dabc;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #2d0fda;
+      padding: 35px 20px;
+    }
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(19, 96, 212, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: hwb(120 95% 5%);
+  color: rgb(8, 154, 168);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(184, 225, 20);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(223, 150, 23);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+/* CSS for footer */
+.footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #c4e9b8;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #e20d78;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 50px;
+    }
+
+    .bottom-links .links span {
+      font-size: 30px;
+      color: #e91616;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration:wavy;
+      color: #2c12c2;
+      padding: 10px 20px;
+    }
+      </style>
+      <footer class="footer">
+        <div class="copy">&copy; NYAGOL'S</div>
+        <div class="bottom-links">
+          <div class="links">
+            <span>More Info</span>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="signup.htm">Sign Up</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="rating.html">Ratings</a>
+          </div>
+          
+          <div class="links">
+            <span>Social Links</span>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
